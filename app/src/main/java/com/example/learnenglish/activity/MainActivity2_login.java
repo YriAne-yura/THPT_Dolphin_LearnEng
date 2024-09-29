@@ -45,11 +45,12 @@ public class MainActivity2_login extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Skip login
                                 Toast.makeText(MainActivity2_login.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
-
-                            } else {
                                 Intent intent = new Intent(MainActivity2_login.this, MainActivity.class);
                                 startActivity(intent);
                                 finish();
+
+                            } else {
+
                                 Toast.makeText(MainActivity2_login.this, "Thông tin không hợp lệ", Toast.LENGTH_SHORT).show();
                             }
                         });
