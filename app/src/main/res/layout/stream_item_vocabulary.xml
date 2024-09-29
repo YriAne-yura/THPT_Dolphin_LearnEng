@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/image_desc"/>
+
+        <TextView
+            android:id="@+id/textview_Tutienganh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_item"
+            android:layout_toEndOf="@+id/image_item"
+            android:text="Tu tieng anh"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"
+            android:layout_marginStart="8dp"/>
+
+        <TextView
+            android:id="@+id/textview_Tutiengviet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textview_Tutienganh"
+            android:layout_below="@id/textview_Tutienganh"
+            android:text="Tu tieng viet"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_sound"
+            android:layout_width="53dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/textview_Tutiengviet"
+            android:layout_marginStart="-138dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/textview_Tutienganh"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/sound_button_desc"
+            android:src="@drawable/loaloa" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
