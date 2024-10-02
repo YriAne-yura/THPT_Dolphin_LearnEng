@@ -11,7 +11,7 @@ import com.example.learnenglish.R;
 
 public class LessonActivity extends AppCompatActivity {
 
-    private String[] lessons = {"Thì Hiện tại đơn", "Thì thứ 2...", "Th thứ 3..."};
+    private String[] lessons = {"Thì hiện tại đơn", "Thì thứ 2...", "Th thứ 3..."};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

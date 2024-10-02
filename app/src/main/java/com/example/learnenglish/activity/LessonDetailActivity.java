@@ -21,8 +21,8 @@ public class LessonDetailActivity extends AppCompatActivity {
         // Based on the selected lesson, display the appropriate image
         if (selectedLesson != null) {
             switch (selectedLesson) {
-                case "Thì Hiện tại đơn":
-                    lessonImageView.setImageResource(R.drawable.image_present_tense);
+                case "Thì hiện tại đơn":
+                    lessonImageView.setImageResource(R.drawable.pic1);
                     break;
                 case "Thì thứ 2...":
                    // lessonImageView.setImageResource(R.drawable.image_second_lesson);
