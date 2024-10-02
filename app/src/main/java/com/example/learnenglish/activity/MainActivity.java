@@ -2,6 +2,7 @@ package com.example.learnenglish.activity;
 
 import android.content.Intent;
 import androidx.annotation.NonNull;
+
 import com.google.android.material.navigation.NavigationView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -69,6 +70,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_test:
                 Intent intentTest = new Intent(MainActivity.this, SelectUnitActivity.class);
                 startActivity(intentTest);
+                break;
+            case R.id.nav_grammar:
+                Intent intentGrammar = new Intent(MainActivity.this, Grammar.class);
+                startActivity(intentGrammar);
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);

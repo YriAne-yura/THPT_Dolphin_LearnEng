@@ -25,6 +25,9 @@
         <activity android:name=".activity.QuizActivity" />
         <activity android:name=".activity.SelectUnitActivity" />
         <activity android:name=".activity.ResultActivity" />
+        <activity android:name=".activity.LessonActivity" />
+        <activity android:name=".activity.Grammar" />
+        <activity android:name=".activity.LessonDetailActivity" />
 
 
         <activity

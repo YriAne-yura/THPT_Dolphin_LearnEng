@@ -16,6 +16,9 @@
         <item android:id="@+id/nav_chat"
             android:icon="@drawable/ic_chat"
             android:title="Dolphin Search"/>
+        <item android:id="@+id/nav_grammar"
+            android:icon="@drawable/ic_grammar"
+            android:title="Grammar"/>
     </group>
 
     <item android:title="Setting">
